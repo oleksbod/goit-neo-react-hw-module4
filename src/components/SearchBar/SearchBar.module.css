@@ -1,0 +1,48 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  background: #054ba7;
+  box-shadow: 0px 4px 6px #054ba7;
+  z-index: 10;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.input {
+  padding: 4px 8px;
+  width: 400px;
+  border-radius: 4px;
+  padding-left: 50px;
+  font: inherit;
+}
+
+.searchBtn {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+  appearance: none;
+  position: absolute;
+  top: 22px;
+  left: 15px;
+  opacity: 0.5;
+}
+
+.searchBtn:hover {
+  opacity: 1;
+}
