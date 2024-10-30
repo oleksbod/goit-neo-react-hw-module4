@@ -16,6 +16,9 @@
   overflow: hidden;
   width: 400px;
   height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .galleryItem:hover {
